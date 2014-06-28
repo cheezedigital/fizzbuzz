@@ -1,6 +1,6 @@
 == FizzBuzz
 
-
+to run test in terminal, please rspec filename_spec.rb
 
 == Add Gemfile
   source "https://rubygems.org"
@@ -21,3 +21,11 @@
     end
 
 == Add fizz_buzz.rb, and fizz_buzz_spec.rb
+
+
+== fizz_buzz_spec.rb
+  require_relative 'spec_helper'
+  require_relative 'fizz_buzz'
+
+  write out all descriptions
+  
