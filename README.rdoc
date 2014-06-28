@@ -1,1 +1,23 @@
 == FizzBuzz
+
+
+
+== Add Gemfile
+  source "https://rubygems.org"
+  gem 'rspec'
+  more information on rspec can be found here: http://rspec.info/
+  bundle after gems are installed.
+
+== Add file spec_helper.rb
+  inside this file
+    require 'rspec'
+
+    RSpec .configure do |c|
+
+      c.color = true
+      c.filter_run focus :true
+      c.run_all_when_everything_filtered = true
+      c.formatter = :documentation
+    end
+
+== Add fizz_buzz.rb, and fizz_buzz_spec.rb
