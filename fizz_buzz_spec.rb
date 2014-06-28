@@ -36,7 +36,18 @@ describe FizzBuzz, 'a fun drinking game' do
     it 'takes the number 10 and returns Buzz' do
       expect(FizzBuzz.callout(10)).to eq 'Buzz'
     end
-    
+
+    it 'takes the number 12 and returns Fizz' do
+      expect(FizzBuzz.callout(12)).to eq 'Fizz'
+    end
+
+    it 'takes the number 15 and returns FizzBuzz' do
+      expect(FizzBuzz.callout(15)).to eq 'FizzBuzz'
+    end
+
+    it 'takes the number 90 and returns FizzBuzz' do
+      expect(FizzBuzz.callout(90)).to eq 'FizzBuzz'
+    end
 
   end
 
